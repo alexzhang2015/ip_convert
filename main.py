@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import os
+import convert
 
 def main():
-    pass
+    print convert.ipv4_convert('172.168.5.1'+'\0')
 
 if __name__ == "__main__":
     main()

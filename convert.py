@@ -59,6 +59,8 @@ def ipv4_convert(ipv4_addr):
     print ''.join(ipv4_c)
     print ''.join(ipv4_d)
 
+    # validate ipv4
+
     # calc
     result = int(''.join(ipv4_a)) << 24 | int(''.join(ipv4_b)) << 16 | int(''.join(ipv4_c)) << 8 | int(''.join(ipv4_d))
 
