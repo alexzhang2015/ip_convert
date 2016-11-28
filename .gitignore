@@ -56,3 +56,5 @@ unittest.xml
 # private data
 *.csv
 *.xlsx
+
+.cache
