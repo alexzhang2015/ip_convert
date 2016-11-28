@@ -8,6 +8,8 @@ For example, given an IP address "172.168.5.1", the output should be a 32 -bit i
 with "172" as the highest order 8 bit. 168 as the second highest order 8 bit, 5 as the
 second lowest order 8 bit, and 1 as the lowest order 8 bit. That is,
 "172.168.5.1" => 2896692481
+
+
 Requirements:
 1. You can only iterate the string once.
 2. You should handle spaces correctly: a string with spaces between a digit and a dot is
